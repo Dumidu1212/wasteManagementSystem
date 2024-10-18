@@ -1,0 +1,15 @@
+/* src/styles/variables.css */
+:root {
+  --primary-green: #10B981;
+  --secondary-green: #34D399;
+  --dark-green: #047857;
+  --background-color: #F0FFF4;
+  --text-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #064E3B;
+    --text-color: #D1FAE5;
+  }
+}
